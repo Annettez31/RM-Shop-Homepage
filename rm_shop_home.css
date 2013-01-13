@@ -157,7 +157,7 @@ ul.slider_thumb li.lastChild.act a		{background:url('http://www.rm.com/_RMVirtua
 }
 
 #bestsellers_products {
-	width: 1880px;
+	width: 1880px;  /* This number MUST be updated if the number of products change.  It should be 235 * the number of products */
 	height: 100%;
 }
 
