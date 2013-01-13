@@ -58,6 +58,7 @@ a:link, a:visited {
 	left: -131px;
 }
 
+/* Start of Promo Slider CSS */
 #promo_slider 							{height: 235px; background: url('http://www.rm.com/_RMVirtual/Media/Images/slider-image-bg-shop.jpg') repeat-x left bottom #FFF; border-bottom: 1px solid #FFF; border-top: 1px solid #FFF; border: 1px solid #fff; overflow: hidden; clear: both;}
 #rm_slides 								{clear:both; width:1000px; overflow:hidden;}
 .slide 									{float:left; width:1000px;}
@@ -74,3 +75,96 @@ ul.slider_thumb li:first-child.inact a	{border-left:none;}
 ul.slider_thumb li.act a				{background:url('http://www.rm.com/_RMVirtual/Media/Images/slider-nav-sprite-shop.png') repeat-x 0px -67px; border-right:1px solid #4c2e91; border-left:1px solid #4c2e91; color:#FFFFFF;}
 ul.slider_thumb li:first-child.act a	{background:url('http://www.rm.com/_RMVirtual/Media/Images/slider-nav-sprite-shop.png') no-repeat 0px -34px!important; border-left:none;}
 ul.slider_thumb li.lastChild.act a		{background:url('http://www.rm.com/_RMVirtual/Media/Images/slider-nav-sprite-shop.png') no-repeat right -2px!important; border-right:none;}
+/* End of Promo Slider CSS */
+
+
+/*********************
+*  Best Sellers Code *
+*********************/
+#bestsellers {
+	width: 1000px;
+	height: 250px;
+	position: relative;
+}
+
+#bestsellers>div {
+	position: absolute;
+}
+
+#bestsellers_main_wrapper {
+	
+}
+
+#bestsellers_title {
+	background: url('images/bestsellers_title.png');
+	width: 268px;
+	height: 43px;
+	z-index: 10;
+}
+
+#bestsellers_previous {
+	width: 33px;
+	height: 33px;
+	left: -6px;
+	top: 100px;
+	z-index: 10;
+}
+
+#bestsellers_previous a.bestsellers_prev {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url('images/bestsellers_prev_normal.png');
+}
+
+#bestsellers_previous a.bestsellers_prev:hover {
+	background: url('images/bestsellers_prev_hover.png');
+}
+
+#bestsellers_next {
+	width: 33px;
+	height: 33px;
+	right: -6px;
+	top: 100px;
+	z-index: 10;
+}
+
+#bestsellers_next a.bestsellers_next {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url('images/bestsellers_next_normal.png');
+}
+
+#bestsellers_next a.bestsellers_next:hover {
+	background: url('images/bestsellers_next_hover.png');
+}
+
+#bestsellers_main_wrapper {
+	z-index: 5;  /* Behind the title and controls */
+	width: 980px;
+	height: 230px;
+	left: 10px;
+	top: 20px;
+	background-color: #333;
+}
+
+#bestsellers_slider {
+	width: 940px;
+	height: 200px;
+	margin: 20px 20px 10px;
+	overflow: hidden;
+}
+
+#bestsellers_products {
+	width: 1880px;
+	height: 100%;
+}
+
+.bestsellers_product {
+	width: 215px;
+	height: 100%;
+	float: left;
+	margin: 0 10px;
+	background-color: red;
+}
