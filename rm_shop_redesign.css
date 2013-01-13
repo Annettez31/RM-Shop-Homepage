@@ -1,0 +1,115 @@
+<style type="text/css">
+@charset "utf-8";
+/* rm shop redesign - jan 2013 */
+
+	body 				{background: #fff url('/_rmvirtual/media/images/newrmshopbg.jpg') 0 -205px repeat-x !important}
+	.main_content, 
+	.main_content_new, 
+	.content, 
+	.container 			{background: none !important}
+	
+	.menuHolder 		{margin: 0px 0 26px 0; -moz-box-shadow: 0 5px 15px -5px #333; -webkit-box-shadow: 0 5px 15px -5px #333; box-shadow: 0 5px 15px -5px #333}
+	
+	h1 					{font-family: 'MuseoSans500' !important; color: #333 !important; letter-spacing: -0.06em; font-size: 2.6em}
+	.container_hdr_r_basket, 
+	.tagline_search_outer, 
+	.container_hdr 		{background: none !important}
+	
+	.hdr_search 		{padding: 0 !important; margin: 20px 0 0 5px; -moz-box-shadow: 0 6px 20px -8px #222; -webkit-box-shadow: 0 6px 20px -8px #222; box-shadow: 0 6px 20px -8px #222}
+	.hdr_logo 			{height: 138px; background: url('/_rmvirtual/media/images/newrmlogo.png') no-repeat; margin: -30px 0 0 -5px}
+	.hdr_nav_new 		{position: absolute; width: auto !important; margin: -6px 0 0 102px !important; font-family: 'MuseoSans500' !important}
+	.hdr_search .button {margin: 8px 0 0 -1px !important; padding: 9px 24px 10px 24px !important; height: auto !important; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border: 1px solid #000}
+	.hdr_basket h3 		{background: none; text-indent: 0; margin: 32px 08px 8px; padding: 0; height: auto; text-align: left; font-family: 'MuseoSlab100'; font-weight: normal; font-size: 1.5em; letter-spacing: -0.06em}
+	.hdr_basket 		{background: #fff; height: 130px; margin: -30px 0 0 0; width: auto; padding: 0 5px; -moz-box-shadow: 0 5px 15px -5px #666; -webkit-box-shadow: 0 5px 15px -5px #666; box-shadow: 0 5px 15px -5px #666}
+	.basket_contents 	{margin: 8px 0 0 10px}
+	.main_content 		{padding: 22px 15px 0 15px; margin: 0 !important; width: 750px !important}
+	.hdr_contents 		{height: 120px}
+	.menuHolder 		{background: none; height: 45px !important}
+	#menu 				{padding: 0 !important; border-top-left-radius: 2px; border-top-right-radius: 2px}
+	#menu a:link, 
+	#menu a:visited, 
+	#menu a:hover 		{color: #fff; margin: 0 !important; padding: 7px 23px 0 20px !important}
+	#menu a:link, 
+	#menu a:visited 	{background: none !important}
+	
+	#menu .highLightBox li, 
+	#menu .highLightBox li:hover {margin: 1px 10px !important; background: none !important}
+	
+	#menu li.active 	{background: #213047}
+	#menu li:hover 		{background: #D42B82}
+	#menu li.active a:link, 
+	#menu li.active a:visited {color: #fff; padding: 15px 25px 0 21px !important; margin: -7px 0 0 0 !important; background: url('/_rmvirtual/media/images/shop_nav_active_indi.png') center 0 no-repeat !important}
+	#menu li a:hover 	{color: #fff}
+	#menu li a.single:link, 
+	#menu li a.single:active, 
+	#menu li a.single:visited, 
+	#menu li a.single:hover {padding: 14px 23px 0 20px !important}
+	#menu li 			{margin: 0 !important}
+	
+	#menu li 			{background: url('/_rmvirtual/media/images/shop_nav_separator.png') no-repeat right top}
+	#menu .parent9 		{background: none}
+	#menu 				{background: url('/_rmvirtual/media/images/shop_nav_bg.png') no-repeat}
+	#menu li.active 	{margin: 0 0 0 -3px !important; padding: 0 0 0 3px; background: url('/_rmvirtual/media/images/shop_nav_active_bg.png') no-repeat; background-size: 100% 45px}
+	#menu li:hover 		{background: url('/_rmvirtual/media/images/shop_nav_hover_bg.png') no-repeat; background-size: 100% 45px; margin: 0 0 0 -3px !important; padding: 0 0 0 3px}
+	#menu .parent1:hover {margin: 0 !important; padding: 0}
+	#menu div li 		{background: none}
+	#menu div li a:link, 
+	#menu div li a:visited, 
+	#menu div li a:hover, 
+	#menu li.active div li a:link, 
+	#menu li.active div li a:visited, 
+	#menu li.active div li a:hover {color: #000; margin: 0 !important; padding: 0 !important; line-height: 160%; background: none !important}
+	#menu div li:hover {background: none; margin: 0 !important; padding: 0}
+	
+	.shop_ovp 			{position: absolute; width: 1000px; top: 195px; margin: 0 0 0 -8px; background: #1f1f1e; height: 30px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px}
+	.shop_ovp ul 		{margin: 8px 0 0 0; padding: 0; white-space: nowrap; text-align: center}
+	.shop_ovp li 		{margin: 0; padding: 0 10px 0 8px; white-space: nowrap; border-right: 1px solid #ccc; color: #fff; display: inline; list-style: none; background: none !important; text-transform: uppercase; font-size: 1.1em}
+	.shop_ovp a:link, 
+	.shop_ovp a:visited {display: inline; color: #fff}
+
+	.hdr_nav_new a:link, 
+	.hdr_nav_new a:visited {color: #000 !important; display: block; float: left; margin: 0 1px 0 0; background: #fff; text-transform: uppercase; padding: 8px 0 7px 25px; width: 120px; text-align: left}
+	.hdr_nav_new a:hover {color: #fff!important; background: #333; text-decoration: none}
+	.link_separator 	{display: none}
+	.login_info 		{position: absolute; left: 130px; top: 108px; width: 600px !important; text-align: left}
+	.search_text 		{border: 1px solid #000; padding: 6px 33px !important; border-top-left-radius: 2px; border-bottom-left-radius: 2px}
+	.search_text, 
+	.search_watermark 	{background: white url('../images/hdr_search_box_bg.png') no-repeat 7px 4px}
+	.basket_button a 	{padding: 0; font-weight: normal; display: block; margin: 0 10px 0 0; text-decoration: none; text-align: center; background: #fd7023 ;border-radius: 2px; line-height: 245%; font-size: 0.9em; color: white}
+	.content_ftr 		{background: none !important; z-index: 2; padding: 18px 0 0 20px; font-family: 'MuseoSans500' !important}
+	.container_ftr 		{position: absolute; width: 100%; left: 0; z-index: 1; margin: -300px 0 0 0}
+	.container_ftr_l, 
+	.container_ftr_r, 
+	.container_ftr_bg 	{background: #1F1F1E !important; height: 355px}
+	.feedbackIndicatorImage {z-index: 2}
+	.ftr_menu 			{width: 180px; margin: 0 15px 0 0}
+	.ftr_menu h3 		{color: #fff; font-size: 1.4em; border-bottom: 1px solid #474747}
+	.ftr_menu a:link, 
+	.ftr_menu a:visited {color: #8f8f8f}
+	.ftr_menu a:hover 	{color: #fff; text-decoration: none}
+	.ftr_copyright 		{position: absolute; float: none; bottom: -40px; left: 0; margin: 0; padding: 4px 0 0 8px !important; line-height: 200%; color: #8f8f8f; border-top: 1px solid #333332}
+	
+	@font-face {font-family: 'MuseoSans500'; src: url('/shops/App_Themes/RMAtHome/images/MuseoSans_500-webfont.eot'); src: url('/shops/App_Themes/RMAtHome/images/MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'), url('/shops/App_Themes/RMAtHome/images/MuseoSans_500-webfont.woff') format('woff'), url('/shops/App_Themes/RMAtHome/images/MuseoSans_500-webfont.ttf') format('truetype'), url('/shops/App_Themes/RMAtHome/images/MuseoSans_500-webfont.svg#MuseoSans500') format('svg'); font-weight: normal; font-style: normal}
+	@font-face {font-family: 'MuseoSlab500'; src: url('/shops/App_Themes/RMAtHome/images/Museo_Slab_500-webfont.eot'); src: url('/shops/App_Themes/RMAtHome/images/Museo_Slab_500-webfont.eot?#iefix') format('embedded-opentype'), url('/shops/App_Themes/RMAtHome/images/Museo_Slab_500-webfont.woff') format('woff'), url('/shops/App_Themes/RMAtHome/images/Museo_Slab_500-webfont.ttf') format('truetype'), url('/shops/App_Themes/RMAtHome/images/Museo_Slab_500-webfont.svg#MuseoSans500') format('svg'); font-weight: normal; font-style: normal}
+	@font-face {font-family: 'MuseoSlab100'; src: url('/shops/App_Themes/RMAtHome/images/Museo_Slab_100-webfont.eot'); src: url('/shops/App_Themes/RMAtHome/images/Museo_Slab_100-webfont.eot?#iefix') format('embedded-opentype'), url('/shops/App_Themes/RMAtHome/images/Museo_Slab_100-webfont.woff') format('woff'), url('/shops/App_Themes/RMAtHome/images/Museo_Slab_100-webfont.ttf') format('truetype'), url('/shops/App_Themes/RMAtHome/images/Museo_Slab_100-webfont.svg#MuseoSans500') format('svg'); font-weight: normal; font-style: normal}
+	
+	.ftr_links_below_menu, 
+	.cant_find_banner 	{display: none}
+	.topofpage 			{display: block !important; width: 33px; height: 33px; overflow: hidden; text-indent: -20000px; margin: 0 0 -36px -225px}
+	.topofpage a:link, 
+	.topofpage a:visited {display: block; background: url('/_rmvirtual/media/images/shop_top_of_page.png') no-repeat; width: 33px; height: 33px; overflow: hidden; text-indent: 10000px}
+	.bg_left_shop h3 	{background: #1f1f1e !important; padding: 14px 10px 14px 16px}
+	.bg_left_shop ul 	{background: none !important; margin: 10px 0 0 14px; font-size: 1.1em}
+	.bg_left_shop li 	{line-height: 160% !important; background: none !important}
+	.bg_left_shop ul a:link, 
+	.bg_left_shop ul a:visited {color: #000}
+	.bg_left_shop 		{background: none !important; font-family: 'MuseoSans500' !important; margin: 6px 0 10px 0}
+	.left_nav 			{padding: 16px 0 10px 0; background: none}
+	#menu :hover div 	{width: 974px; margin: -1px 0 0 0; background-color: #f5f5f5; border: 0; border-bottom: 2px solid #a50c5b; border-top: 7px solid #a50c5b; display: block; padding: 10px 15px 10px 11px; position: absolute; top: 45px; -moz-box-shadow: 0 5px 25px -5px #888; -webkit-box-shadow: 0 5px 25px -5px #888; box-shadow: 0 5px 25px -5px #888; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px}
+	.subcategory a:link, 
+	.subcategory a:visited {-moz-box-shadow: 0 5px 25px -5px #888; -webkit-box-shadow: 0 5px 25px -5px #888; box-shadow: 0 5px 20px -8px #888}
+	.subcategory h3 a:link, 
+	.subcategory h3 a:visited {moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; font-family: 'MuseoSans500'; font-weight: normal; font-size: 1.1em; color: #000 !important}
+	.subcategory img 	{border: 0; background: 0}
+	.subcategories 		{margin: 10px 0 0 0; padding: 15px 0 0 5px; border-top: 1px solid #ccc}
+</style>
