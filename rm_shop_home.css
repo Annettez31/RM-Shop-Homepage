@@ -1,0 +1,11 @@
+#page_header {
+	background: url('images/rm_shop_header.png');
+	width: 1262px;
+	height: 244px;
+}
+
+#page_footer {
+	background: url('images/rm_shop_footer.png');
+	width: 1262px;
+	height: 354px;
+}
