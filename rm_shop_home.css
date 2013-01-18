@@ -166,11 +166,11 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 }
 
 .bestsellers_product {
-    width: 215px;
-    height: 100%;
+    width: 213px;
+    height: 198px;
     float: left;
     margin: 0 10px;
-    background-color: red;
+    border: 1px dashed red;
 }
 
 
