@@ -185,7 +185,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 }
 
 #category_wrapper {
-    width: 725px;
+    width: 705px;
     padding-left: 20px;
     overflow: hidden;
     float: left;
@@ -213,14 +213,14 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 } 
 
 #side_panel_wrapper {
-	width: 245px;
+	width: 235px;
 	overflow: hidden;
 } 
 
 .side_panel {
 	width: 215px;
 	overflow: hidden;
-	margin-right: 20px;
+	margin-left: 20px;
 	margin-top: 20px;
     background-color: rgb(37, 37, 37);
 }
