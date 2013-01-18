@@ -55,7 +55,7 @@ a:link, a:visited {
 }
 
 #page_footer {
-    background: url('images/rm_shop_.png');
+    background: url('images/rm_shop_footer.png');
     width: 1262px;
     height: 354px;
     position: relative;
@@ -173,10 +173,15 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
     background-color: red;
 }
 
+
+
+/**********************
+*  Category Grid Code *
+**********************/
+
 #grid_wrapper {
     width: 1000px;
     height: 1200px;
-    border: solid 1px black;
 }
 
 #category_wrapper {
@@ -213,6 +218,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 .side_panel {
 	width: 225px;
 	margin-right: 20px;
+	margin-top: 20px;
     background-color: rgb(37, 37, 37);
 }
 
@@ -229,6 +235,11 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 	color: white;
 	padding: 5px;
 }  
+
+img.centre {
+	display: block;
+	margin: 0 auto;
+}
 
 .panel_hyperlinks {
    width: 100%;
