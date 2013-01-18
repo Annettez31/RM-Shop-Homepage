@@ -185,14 +185,16 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 }
 
 #category_wrapper {
-    width: 755px;
+    width: 725px;
+    padding-left: 20px;
     overflow: hidden;
     float: left;
 }
 
 .category_panel {
-	width: 225px;
+	width: 215px;
 	height: 355px;
+	overflow: hidden;
 	position: relative;
 	float: left;
 	margin-top: 20px;
@@ -216,7 +218,8 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 } 
 
 .side_panel {
-	width: 225px;
+	width: 215px;
+	overflow: hidden;
 	margin-right: 20px;
 	margin-top: 20px;
     background-color: rgb(37, 37, 37);
@@ -235,11 +238,6 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 	color: white;
 	padding: 5px;
 }  
-
-img.centre {
-	display: block;
-	margin: 0 auto;
-}
 
 .panel_hyperlinks {
    width: 100%;
