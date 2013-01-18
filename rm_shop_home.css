@@ -181,7 +181,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 
 #grid_wrapper {
     width: 1000px;
-    height: 1200px;
+    overflow: hidden;
 }
 
 #category_wrapper {
