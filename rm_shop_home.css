@@ -123,6 +123,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
     display: block;
     width: 100%;
     height: 100%;
+    cursor: pointer;
     background: url('images/bestsellers_prev_normal.png');
 }
 
@@ -142,6 +143,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
     display: block;
     width: 100%;
     height: 100%;
+    cursor: pointer;
     background: url('images/bestsellers_next_normal.png');
 }
 
@@ -163,11 +165,14 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
     height: 200px;
     margin: 20px 20px 10px;
     overflow: hidden;
+    position: relative;
 }
 
 #bestsellers_products {
-    width: 1880px;  /* This number MUST be updated if the number of products change.  It should be 235 * the number of products */
+    width: 25000px;
     height: 100%;
+    position: absolute;
+    left: 0;
 }
 
 .bestsellers_product {
