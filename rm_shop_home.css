@@ -316,3 +316,29 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
    text-decoration: underline;
    background-color: rgb(253, 132, 55);
 }
+
+/**********************
+*  Why buy from RM section *
+**********************/
+
+#further_info {
+    height: 200px;
+    width: 980px;
+    background-color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logos_wrapper {
+	height: 155px;
+	width: 365px;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 600px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+
+
+
