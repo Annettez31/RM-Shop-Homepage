@@ -92,7 +92,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 *********************/
 #bestsellers {
     width: 1000px;
-    height: 250px;
+    height: 264px;
     position: relative;
 }
 
@@ -154,7 +154,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 #bestsellers_main_wrapper {
     z-index: 5;  /* Behind the title and controls */
     width: 980px;
-    height: 230px;
+    height: 244px;
     left: 10px;
     top: 20px;
     background-color: #333;
@@ -162,7 +162,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 
 #bestsellers_slider {
     width: 940px;
-    height: 200px;
+    height: 214px;
     margin: 20px 20px 10px;
     overflow: hidden;
     position: relative;
@@ -177,7 +177,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 
 .bestsellers_product {
     width: 215px;
-    height: 200px;
+    height: 214px;
     float: left;
     margin: 0 10px;
     color: white;
@@ -186,6 +186,15 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 
 .bestsellers_product img {
     border: 1px solid white;
+}
+
+.bestsellers_product div.rating {
+	margin-top: 4px;
+	padding-left: 5px;
+}
+
+.bestsellers_product div.rating img{
+	border: none;
 }
 
 .bestsellers_product h3 {
