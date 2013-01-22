@@ -298,6 +298,30 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 	padding: 5px;
 }
 
+#brand_logos {
+	overflow: hidden;
+	margin-left: 1px;
+	margin-top: 1px;
+}
+
+.brand_logo {
+	width: 104px;
+	height: 110px;
+	background: url('images/brands.png');
+	margin: 1px;
+	float: left;
+}
+
+.brand_logo a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.brand_logo a:hover {
+	background: url('images/trans_black.png');
+}
+
 .side_panel.contains_cta{
 	padding-bottom: 40px;
 } 
