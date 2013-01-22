@@ -279,6 +279,11 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
     position: relative;
 }
 
+.side_panel .img_padding {
+	 padding-left: 3px;
+	 padding-top: 3px;
+}
+
 .side_panel h3 {
 	font-size: 20px;
 	font-family: 'MuseoSans300';
