@@ -340,5 +340,13 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 	float: left;
 }
 
+#why_buy_specs li {
+	margin: 0;
+	padding-left: 5px;
+	list-style: square;
+	font-size: 14px;
+	font-family: 'MuseoSans300';
+	color: white;
+}
 
 
