@@ -87,6 +87,13 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 /* End of Promo Slider CSS */
 
 
+#microsoft_mba {
+	float: right;
+	padding: 10px;
+	font-family: 'MuseoSans300';
+	font-size: 16px;
+}
+
 /*********************
 *  Best Sellers Code *
 *********************/
@@ -94,6 +101,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
     width: 1000px;
     height: 264px;
     position: relative;
+    margin-top: 16px;
 }
 
 #bestsellers>div {
