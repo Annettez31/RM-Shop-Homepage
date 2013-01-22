@@ -238,7 +238,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 } 
 
 .category_panel h3 {
-	font-size: 18px;
+	font-size: 20px;
 	margin: 10px 0;
 }
 
@@ -322,29 +322,52 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 **********************/
 
 #further_info {
-    height: 200px;
-    width: 980px;
+    width: 920px;
     background-color: #333;
     margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 20px 40px 50px;
+    overflow: hidden;
+    font-family: 'MuseoSans300';
+    position: relative;
+}
+
+#further_info h3 {
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	border-bottom: 1px solid #999;
+	width: 460px;
+}
+
+#further_info .go_to_top {
+	position: absolute;
+	left: 40px;
+	bottom: 0;
 }
 
 .logos_wrapper {
-	height: 155px;
 	width: 365px;
-	margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 600px;
+	margin-top: 0;
+    margin-bottom: 0;
 	overflow: hidden;
-	position: relative;
-	float: left;
+	float: right;
+}
+
+.logos_wrapper img {
+	margin-left: 5px;
+}
+
+ul#why_buy_specs {
+	margin: 20px 0 0 15px;
+	padding: 0;
 }
 
 #why_buy_specs li {
 	margin: 0;
-	padding-left: 5px;
+	text-indent: -2px;
+	line-height: 175%;
 	list-style: square;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: 'MuseoSans300';
 	color: white;
 }
