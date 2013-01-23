@@ -254,6 +254,10 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 	margin-left: 20px;
 } 
 
+.category_panel.first_row {
+	margin-top: 20px;
+}
+
 .category_panel h3 {
 	font-size: 19px;
 	margin: 10px 0;
@@ -277,6 +281,10 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 	margin-top: 20px;
     background-color: rgb(37, 37, 37);
     position: relative;
+}
+
+.side_panel.first {
+	margin-top: 0;
 }
 
 .side_panel .img_padding {
