@@ -33,6 +33,11 @@ p, h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
+p {
+	font-size: 16px;
+	font-family: 'MuseoSans500';
+}
+
 img {
     border 0;
 }
@@ -90,7 +95,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 #microsoft_mba {
 	float: right;
 	padding: 10px;
-	font-family: 'MuseoSans300';
+	font-family: 'MuseoSans500';
 	font-size: 16px;
 }
 
@@ -214,7 +219,6 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 
 .bestsellers_product p {
 	font-size: 14px;
-	font-family: 'MuseoSans300';
 	color: white;
 	padding: 5px;
 }
@@ -265,9 +269,12 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 
 .category_panel p {
 	margin: 10px 0;
-	font-size: 16px;
-	font-family: 'MuseoSans300';
+	color: #808080;
 } 
+
+/*******************
+*  Side Panel Code *
+********************/
 
 #side_panel_wrapper {
 	width: 215px;
@@ -306,11 +313,13 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 } 
 
 .side_panel p {
-	font-size: 16px;
-	font-family: 'MuseoSans300';
 	color: white;
 	padding: 5px;
 }
+
+/************************
+*  Shade on hover logo  *
+************************/
 
 #brand_logos,
 #discover_logos,
@@ -353,6 +362,10 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 .discover_logo {
 	background: url('images/discover_logos.png');
 }
+
+/********************
+*  Calls to action  *
+********************/
 
 .side_panel.contains_cta{
 	padding-bottom: 50px;
@@ -398,9 +411,9 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 }
 
 
-/**********************
+/***************************
 *  Why buy from RM section *
-**********************/
+****************************/
 
 #further_info {
     width: 920px;
