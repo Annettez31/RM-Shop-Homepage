@@ -299,14 +299,16 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 }
 
 #brand_logos,
-#discover_logos {
+#discover_logos,
+#software_logos {
 	overflow: hidden;
 	margin-left: 1px;
 	margin-top: 1px;
 }
 
 .brand_logo,
-.discover_logo  {
+.discover_logo,
+.software_logo  {
 	width: 104px;
 	height: 110px;
 	background: url('images/brands.png');
@@ -314,20 +316,33 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 	float: left;
 }
 
+.software_logo  {
+	width: 104px;
+	height: 95px;
+	background: url('images/software_logos.png');
+	margin: 1px;
+}
+
 .brand_logo a,
-.discover_logo a {
+.discover_logo a,
+.software_logo a {
 	width: 100%;
 	height: 100%;
 	display: block;
 }
 
 .brand_logo a:hover,
-.discover_logo a:hover {
+.discover_logo a:hover,
+.software_logo a:hover {
 	background: url('images/trans_black.png');
 }
 
 .discover_logo {
 	background: url('images/discover_logos.png');
+}
+
+.software_logo {
+	background: url('images/software_logos.png');
 }
 
 .side_panel.contains_cta{
