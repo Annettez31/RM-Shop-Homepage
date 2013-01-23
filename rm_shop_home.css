@@ -317,10 +317,9 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 }
 
 .software_logo  {
-	width: 104px;
 	height: 95px;
 	background: url('images/software_logos.png');
-	margin: 1px;
+	margin: 0;
 }
 
 .brand_logo a,
@@ -339,10 +338,6 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 
 .discover_logo {
 	background: url('images/discover_logos.png');
-}
-
-.software_logo {
-	background: url('images/software_logos.png');
 }
 
 .side_panel.contains_cta{
