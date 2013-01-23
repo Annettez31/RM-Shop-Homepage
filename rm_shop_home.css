@@ -250,7 +250,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 	overflow: hidden;
 	position: relative;
 	float: left;
-	margin-top: 20px;
+	margin-top: 50px;
 	margin-left: 20px;
 } 
 
@@ -259,25 +259,31 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 }
 
 .category_panel h3 {
-	font-size: 19px;
-	margin: 10px 0;
+	font-size: 18px;
+	margin: 15px 0 10px;
 }
 
 .category_panel p {
 	margin: 10px 0;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: 'MuseoSans300';
 } 
 
 #side_panel_wrapper {
-	width: 235px;
+	width: 215px;
+	float: left;
+	background: #e4e4e4;
 	overflow: hidden;
+	margin-top: 10px;
+	padding-top: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding: 10px;
 } 
 
 .side_panel {
 	width: 215px;
 	overflow: hidden;
-	margin-left: 20px;
 	margin-top: 20px;
     background-color: rgb(37, 37, 37);
     position: relative;
@@ -300,7 +306,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 } 
 
 .side_panel p {
-	font-size: 14px;
+	font-size: 16px;
 	font-family: 'MuseoSans300';
 	color: white;
 	padding: 5px;
