@@ -3,8 +3,7 @@
     src: url('fonts/museosans_500-webfont.eot');
     src: url('fonts/museosans_500-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/museosans_500-webfont.woff') format('woff'),
-         url('fonts/museosans_500-webfont.ttf') format('truetype'),
-         url('fonts/museosans_500-webfont.svg#MuseoSans500') format('svg');
+         url('fonts/museosans_500-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,8 +13,7 @@
     src: url('fonts/museosans_300-webfont.eot');
     src: url('fonts/museosans_300-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/museosans_300-webfont.woff') format('woff'),
-         url('fonts/museosans_300-webfont.ttf') format('truetype'),
-         url('fonts/museosans_300-webfont.svg#MuseoSans300') format('svg');
+         url('fonts/museosans_300-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -38,8 +36,8 @@ p {
 	font-family: 'MuseoSans500';
 }
 
-img {
-    border 0;
+a img {
+    border: 0;
 }
 
 a:link, a:visited {
@@ -93,8 +91,9 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 
 
 #microsoft_mba {
-	float: right;
-	padding: 10px;
+	position: absolute;
+	right: 10px;
+	top: -6px;
 	font-family: 'MuseoSans500';
 	font-size: 16px;
 }
@@ -210,17 +209,18 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 	border: none;
 }
 
-.bestsellers_product h3 {
+.bestsellers_product h3,
+.bestsellers_product h3 a {
 	font-size: 18px;
 	font-family: 'MuseoSans300';
 	color: white;
-	padding: 5px;  
+	padding: 5px 5px 3px;  
 }
 
 .bestsellers_product p {
 	font-size: 14px;
 	color: white;
-	padding: 5px;
+	padding: 3px 5px;
 }
 
 .bestsellers_product h4 {
@@ -377,8 +377,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 	position: absolute;
 	bottom: 0;
 	border: none;
-	-webkit-border-horizontal-spacing: 0;
-	-webkit-border-vertical-spacing: 0;
+	border-spacing: 0;
 }
 
 .cta tr {
@@ -452,7 +451,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 	height: 94px;
 	float: left;
 	margin-left: 5px;
-	background-position: 0;
+	background-position: 0 0;
 }
 
 
@@ -463,7 +462,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 }
 
 #logos_wrapper>div:hover {
-	background-position-x: 104px;
+	background-position: 104px 0;
 }
 
 ul#why_buy_specs {
