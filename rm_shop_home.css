@@ -209,12 +209,12 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 	border: none;
 }
 
-.bestsellers_product h3,
-.bestsellers_product h3 a {
+.bestsellers_product h2,
+.bestsellers_product h2 a {
 	font-size: 18px;
 	font-family: 'MuseoSans300';
 	color: white;
-	padding: 5px 5px 3px;  
+	padding: 5px 5px 3px;
 }
 
 .bestsellers_product p {
@@ -262,7 +262,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 	margin-top: 20px;
 }
 
-.category_panel h3 {
+.category_panel h2 {
 	font-size: 18px;
 	margin: 15px 0 10px;
 }
