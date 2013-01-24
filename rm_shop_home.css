@@ -432,6 +432,10 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 	width: 460px;
 }
 
+#further_info h3 a {
+	text-decoration: none;
+}
+
 #further_info .go_to_top {
 	position: absolute;
 	left: 40px;
