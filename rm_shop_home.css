@@ -55,7 +55,7 @@ a:hover {
 }
 
 #page_header {
-    background: url('images/rm_shop_header.png');
+    background: url('images/nsh_rm_shop_header.png');
     width: 1262px;
     height: 244px;
     position: relative;
@@ -63,7 +63,7 @@ a:hover {
 }
 
 #page_footer {
-    background: url('images/rm_shop_footer.png');
+    background: url('images/nsh_rm_shop_footer.png');
     width: 1262px;
     height: 354px;
     position: relative;
@@ -117,7 +117,7 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 }
 
 #bestsellers_title {
-    background: url('images/bestsellers_title.png');
+    background: url('images/nsh_bestsellers_title.png');
     width: 268px;
     height: 43px;
     z-index: 10;
@@ -136,11 +136,11 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
     width: 100%;
     height: 100%;
     cursor: pointer;
-    background: url('images/bestsellers_prev_normal.png');
+    background: url('images/nsh_bestsellers_prev_normal.png');
 }
 
 #bestsellers_previous a.bestsellers_prev:hover {
-    background: url('images/bestsellers_prev_hover.png');
+    background: url('images/nsh_bestsellers_prev_hover.png');
 }
 
 #bestsellers_next {
@@ -156,11 +156,11 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
     width: 100%;
     height: 100%;
     cursor: pointer;
-    background: url('images/bestsellers_next_normal.png');
+    background: url('images/nsh_bestsellers_next_normal.png');
 }
 
 #bestsellers_next a.bestsellers_next:hover {
-    background: url('images/bestsellers_next_hover.png');
+    background: url('images/nsh_bestsellers_next_hover.png');
 }
 
 #bestsellers_main_wrapper {
@@ -334,14 +334,14 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 .software_logo  {
 	width: 104px;
 	height: 110px;
-	background: url('images/brands.png');
+	background: url('images/nsh_brands.png');
 	margin: 1px;
 	float: left;
 }
 
 .software_logo  {
 	height: 95px;
-	background: url('images/software_logos.png');
+	background: url('images/nsh_software_logos.png');
 	margin: 0;
 }
 
@@ -356,11 +356,11 @@ ul.slider_thumb li.lastChild.act a	{background:url('http://www.rm.com/_RMVirtual
 .brand_logo a:hover,
 .discover_logo a:hover,
 .software_logo a:hover {
-	background: url('images/trans_black.png');
+	background: url('images/nsh_trans_black.png');
 }
 
 .discover_logo {
-	background: url('images/discover_logos.png');
+	background: url('images/nsh_discover_logos.png');
 }
 
 /********************
